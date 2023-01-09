@@ -1,3 +1,4 @@
+
 .logo{
 	font-weight:600;
 	font-family: 'Poppins', sans-serif;
@@ -43,8 +44,18 @@
 	color:#fff;
 	font-family: 'Raleway', sans-serif;
 }
-.nav-btn-1 button:hover{
-     border-color:#FFF !important;
+.ban-btn{
+	border-radius:5px;
+	border:solid 2px #e03a3c;
+	text-decoration:none;
+	color:#fff;
+	background-color:#e03a3c;
+}
+
+.ban-btn:hover{
+     border:solid 2px #fff;
+	 color:#fff;
+	 background:transparent;
 }
 .clients img{
 	width:100%;
@@ -135,20 +146,29 @@
 	font-family: "Raleway", sans-serif;
     font-size: 14px;
 }
+.icons iconify-icon{
+	text-align:center;
+	
+}
 .icons{
 	position:absolute;
 	top:-30px;
-	left:100px;
+	left:50%;
+  transform: translateX(-50%);
 	width:54px;
 	height:54px;
 	border-radius:50%;
 	padding:5px;
 	box-shadow:  0px 2px 25px rgb(0 0 0 / 10%);
-	line-height:50px;
+	line-height:60px;
 	font-size:26px;
 	color:#e03a3c;
 	background-color:#fff;
+	display:flex;
+	justify-content:center;
+	align-items:center;
 }
+
 .abt-cont {
 	border:none !important;
 }
@@ -471,19 +491,22 @@
 	color:#fff;
 }
 .question{
-	text-align:center;
+	
 
 }
 .ques{
 	background-color:#000;
 	height:10vh;
 }
+.header-sect{
+	text-align:center;
+}
 .header-sect h1{
 	color:#000;
 	position:relative;
-	display:inline-block;
 	padding:20px 0px;
 	
+	display:inline-block;
 }
 .header-sect h1::after{
 	content:"";
@@ -493,15 +516,32 @@
 	width:10%;
 	height:3px;
 	background-color:#e03a3c;
+	
+	
 }
 .question-cont{
 	border:none !important;
 	border-bottom: solid 1px #ccc !important;
 	justify-content:flex-start;
+	background-color:#fff;
+		box-shadow:none;
 }
 .question-cont:hover button{
 	color:#e03a3c;
-	
+	box-shadow:none;
+	background-color:#fff;
+}
+.question-cont button{
+	background-color:#fff;
+	box-shadow:none;
+}
+.question-cont button:hover{
+	box-shadow:none;
+}
+.question-cont:focus button{
+	color:#e03a3c;
+	box-shadow:none;
+	background-color:#fff;
 }
 .team{
   position:relative;
@@ -551,17 +591,19 @@
 	position:absolute;
 	left:40px;
 	bottom:0;
-	top:200px;
+	top:150px;
 	display:flex;
 	justify-content:center;
 	align-items:center;
 	opacity:0;
 	transition:  0.8s;
 	display:block;
+		 transform:translateY(0);	
 }
 
 .team-ph:hover .apps{
 	opacity:1;
+		 transform:translateY(25px);	
 	
 }
 .apps iconify-icon{
@@ -573,10 +615,11 @@
 	height:40px;
 	padding:10px;
 	border-radius:50%;
-	 	
+
 }
 .apps iconify-icon:hover{
 	color:#fff;
+
 }
 .contact{
 
@@ -595,7 +638,7 @@
 	color:#656262;
 }
 .contact-2 p{
-	padding:12px 0px;
+	padding:0px 0px;
 	line-height:22px;
 }
 .contact span iconify-icon{ 
@@ -618,28 +661,30 @@
 	text-align:center;
 	margin:20px 0px;
 	padding:20px 20px;
-	box-shadow:0px 0px 30px rgb(214 215 216 );
+	box-shadow:0 0 30px rgb(214 215 216 / 60%);
 	border-radius:5px;
 }
 .last{
 	text-align:center;
 	
 }
-.last button:hover{
+.last .active:hover{
 	background:#e03a3cd1;
 }
-.tab-content{
-	box-shadow:0px 0px 30px rgb(214 215 216 );
+.tab-content-t{
+	box-shadow:0 0 30px rgb(214 215 216 / 60%);
 	border-radius:5px;
 }
-.tab-content textarea{
+.tab-content-t textarea{
 	border-radius:5px;
 	border-color:#ced4da;
 	width:100%;
 }
-.tab-content input:focus{
+.tab-content-t input:focus{
 	border-color:#000 !important;
 	outline:none;
+	box-shadow:none;
+	
 	
 }
 

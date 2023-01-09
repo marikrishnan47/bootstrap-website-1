@@ -22,10 +22,10 @@
 					<nav class="navbar navbar-expand-lg navbar-light bg-#fff">
 					  <div class="container-fluid">
 							<a class="navbar-brand logo fs-2" href="#">Presento<span>.</span></a>
-							<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 							  <span class="navbar-toggler-icon"></span>
 							</button>
-							<div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown navbarToggleExternalContent">
+							<div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
 							<ul class="navbar-nav menu ">
 								<li class="nav-item">
 								  <a class="nav-link active px-2" aria-current="page" href="#">Home</a>
@@ -50,9 +50,11 @@
 									Dropdown 
 								  </a>
 								  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-									<li><a class="dropdown-item" href="#">Action</a></li>
-									<li><a class="dropdown-item" href="#">Another action</a></li>
-									<li><a class="dropdown-item" href="#">Something else here</a></li>
+									<li><a class="dropdown-item" href="#">Drop Down 1</a></li>
+									<li><a class="dropdown-item" href="#">Deep Drop Down </a></li>
+									<li><a class="dropdown-item" href="#">Drop Down 2</a></li>
+									<li><a class="dropdown-item" href="#">Drop Down 3</a></li>
+									<li><a class="dropdown-item" href="#">Drop Down 4</a></li>
 								  </ul>
 								</li>
 								<li class="nav-item">
@@ -77,7 +79,7 @@
 					   <h1 class="py-3">Bettter digital experience with Presento</h1>
 						<h2 class="pb-3">We are team of talented designers making websites with Bootstrap</h2>
 							<div class="nav-btn mb-5 nav-btn-1">
-								<button type="button" class="btn btn-outline-danger px-4 py-2 mb-5 ban-btn">Get started</button>
+								<a href="" class=" px-4 py-2 mb-5 ban-btn">Get started</a>
 							</div>
 					</div>
 				</div>
@@ -193,7 +195,7 @@
 			<section class="box py-5">
 				<div class="container">
 					<div class="row gy-3 ">
-						<div class="col-lg-3">
+						<div class="col-lg-3 col-md-12">
 							<div class="box-1 p-4" data-aos="fade-up" data-aos-duration="1500">
 							   <h1>232</h1>
 						        <p>Happy Clients</p>
@@ -241,34 +243,35 @@
 			<div class="container">
 			<div class="row">
 				<ul class="nav nav-tabs abt-cont" id="myTab" role="tablist">
-					<li class="nav-item col-6 col-md-6" role="presentation" data-aos="fade-up" data-aos-duration="1500">
-						<a class="nav-link " id="home-tab" data-bs-toggle="tab" href="#home"  role="tab" aria-controls="home" aria-selected="true">
+					<li class="nav-item col-6 col-md-6 col-xs-4" role="presentation" data-aos="fade-up" data-aos-duration="1500">
+						<a class="nav-link active" id="home-tab" data-bs-toggle="tab" href="#home"  role="tab" aria-controls="home" aria-selected="true">
 						   <iconify-icon icon="ri:gps-line"></iconify-icon>
 							<span class="d-none d-md-block d-lg-block">Modi sit est dela pireda nest</span>
 						</a>
 					</li>
-					<li class="nav-item col-6 col-md-6" role="presentation" data-aos="fade-up" data-aos-duration="1500">
-						<a class="nav-link active" id="profile-tab" data-bs-toggle="tab" href="#profile"  role="tab" aria-controls="profile" aria-selected="false">
+					<li class="nav-item col-6 col-md-6 col-xs-4" role="presentation" data-aos="fade-up" data-aos-duration="1500">
+						<a class="nav-link " id="profile-tab" data-bs-toggle="tab" href="#profile"  role="tab" aria-controls="profile" aria-selected="false">
 							   <iconify-icon icon="ri:body-scan-line"></iconify-icon>
 							<span  class="d-none d-md-block d-lg-block">Unde praesenti mara setra le</span>
 						<a>
 					</li>
-					<li class="nav-item col-6 col-md-6" role="presentation" data-aos="fade-up" data-aos-duration="1500">
+					<li class="nav-item col-6 col-md-6 col-xs-4" role="presentation" data-aos="fade-up" data-aos-duration="1500">
 						<a class="nav-link" id="contact-tab" data-bs-toggle="tab" href="#contact"  role="tab" aria-controls="contact" aria-selected="false">
 						   <iconify-icon icon="ri:sun-line"></iconify-icon>
 							<span  class="d-none d-md-block d-lg-block">Pariatur explica nitro dela</span>
 						</a>
 					</li>
-					  <li class="nav-item col-6 col-md-6" role="presentation" data-aos="fade-up" data-aos-duration="1500">
-						<a class="nav-link" id="contact-tab" data-bs-toggle="tab" href="#contact"  role="tab" aria-controls="contact" aria-selected="false">
+					  <li class="nav-item col-6 col-md-6 col-xs-4" role="presentation" data-aos="fade-up" data-aos-duration="1500">
+						<a class="nav-link" id="contact4-tab" data-bs-toggle="tab" href="#contact-4"  role="tab" aria-controls="contact-4" aria-selected="false">
 						  <iconify-icon icon="ri:store-line"></iconify-icon>
 							<span  class="d-none d-md-block d-lg-block">Pariatur explica nitro dela</span>
 						</a>
 					  </li>
 				</ul>
 			</div>	
-					<div class="tab-content" id="myTabContent">
-					  <div class="tab-pane fade show active abt-content" id="home" role="tabpanel" aria-labelledby="home-tab" data-aos="fade-up" data-aos-duration="1500">
+			
+					<div class="tab-content" id="myTabContent" >
+					  <div class="tab-pane fade show active abt-content" id="home" role="tabpanel" aria-labelledby="home-tab"  data-aos="fade-up" data-aos-duration="1000" >
 						<div class="row my-4">
 							<div class="col-lg-6">
 								<h4>Neque exercitationem debitis soluta quos debitis quo mollitia officia est</h4>
@@ -278,7 +281,7 @@
 								<li><iconify-icon icon="ri:check-double-line"></iconify-icon>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
 		
 								<li><iconify-icon icon="ri:check-double-line"></iconify-icon> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-								<li><iconify-icon icon="ri:check-double-line"></iconify-icon>Provident mollitia neque rerum asperiores dolores quos qui a. Ipsum neque dolor voluptate nisi sed..</li>
+								
 								<li><iconify-icon icon="ri:check-double-line"></iconify-icon> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta 
 								storacalaperda mastiro dolore eu fugiat nulla pariatur..</li>
 								</ul>
@@ -291,7 +294,7 @@
 							</div>
 						</div>
 					  </div>
-					  <div class="tab-pane fade abt-content" id="profile" role="tabpanel" aria-labelledby="profile-tab" data-aos="fade-up" data-aos-duration="1500">
+					  <div class="tab-pane fade abt-content" id="profile" role="tabpanel" aria-labelledby="profile-tab" >
 						<div class="row my-4">
 							<div class="col-lg-6">
 								<h4>Neque exercitationem debitis soluta quos debitis quo mollitia officia est</h4>
@@ -314,7 +317,7 @@
 							</div>
 						</div>
 					  </div>
-					 <div class="tab-pane fade abt-content" id="contact" role="tabpanel" aria-labelledby="contact-tab" data-aos="fade-up" data-aos-duration="1500">
+					 <div class="tab-pane fade abt-content" id="contact" role="tabpanel" aria-labelledby="contact-tab" >
 					   	<div class="row my-4">
 							<div class="col-lg-6">
 								<h4>Neque exercitationem debitis soluta quos debitis quo mollitia officia est</h4>
@@ -337,7 +340,7 @@
 							</div>
 						</div>
 					</div>
-					 <div class="tab-pane fade abt-content" id="contact" role="tabpanel" aria-labelledby="contact-tab" data-aos="fade-up" data-aos-duration="1500">
+					 <div class="tab-pane fade abt-content" id="contact-4" role="tabpanel" aria-labelledby="contact4-tab">
 					   	<div class="row my-4">
 							<div class="col-lg-6">
 								<h4>Neque exercitationem debitis soluta quos debitis quo mollitia officia est</h4>
@@ -880,67 +883,68 @@
 					  <p style="color:#000;">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. 
 					  Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.</p>
 				    </div>
-					<div class="row gy-3 my-3">
+					<div class="row ">
 						<div class="col-lg-6">
 							<div class="col-lg-12 col-md-12">
-							<div class="cont" data-aos="fade-up" data-aos-duration="1500">
-								<div class="contact-1">
-								 <span><iconify-icon icon="bx:map"></iconify-icon></span>
+								<div class="cont" data-aos="fade-up" data-aos-duration="1500">
+									<div class="contact-1">
+									 <span><iconify-icon icon="bx:map"></iconify-icon></span>
+									</div>
+									<div class="contact-2">
+										 <h1>Our Address</h1>
+											 <p>A108 Adam Street, New York, NY 535022</p>
+												 
+									</div>
+									 
 								</div>
-								<div class="contact-2">
-								     <h1>Our Address</h1>
-								         <p>A108 Adam Street, New York, NY 535022</p>
-											 
-								</div>
-								 
-							</div>
 							
 							</div>
-							<div class="row gy-3">
-							<div class="col-lg-6 mt-2 col-md-6">
+							<div class="row ">
+								<div class="col-lg-6  col-md-6 style" >
 									<div class="cont" data-aos="fade-up" data-aos-duration="1500">
-							    <div class="contact-1">
-								 <span><iconify-icon icon="bx:phone-call"></iconify-icon></span>
+										<div class="contact-1">
+										 <span><iconify-icon icon="bx:phone-call"></iconify-icon></span>
+										</div>
+										<div class="contact-2">
+										   <h1>Call Us</h1>
+											<p>+1 5589 55488 55<br>+1 6678 254445 41</p>
+										</div>
+									</div>
 								</div>
-								<div class="contact-2">
-								   <h1>Call Us</h1>
-								    <p>+1 5589 55488 55<br>+1 6678 254445 41</p>
+								<div class="col-lg-6  col-md-6">
+									<div class="cont" data-aos="fade-up" data-aos-duration="1500">
+										<div class="contact-1">
+										 <span><iconify-icon icon="bx:envelope"></iconify-icon></span>
+										</div>
+										<div class="contact-2">
+										   <h1>Email Us</h1>
+										   <p>info@example.com<br>contact@example.com</p>
+										</div>
+								    </div>
 								</div>
-							</div>
-						
-						    </div>
-							<div class="col-lg-6 mt-2 col-md-6">
-											<div class="cont" data-aos="fade-up" data-aos-duration="1500">
-							    <div class="contact-1">
-								 <span><iconify-icon icon="bx:envelope"></iconify-icon></span>
-								</div>
-								<div class="contact-2">
-								   <h1>Email Us</h1>
-								   <p>info@example.com<br>contact@example.com</p>
-								</div>
-							</div>
-							</div>
 							</div>
 						
 						</div>
-			     		<div class="col-lg-6 ">
+			     		<div class="col-lg-6 " style="margin-top:20px;">
 						
-							<div class="row my-4 tab-content" data-aos="fade-up" data-aos-duration="1500">
-								  <div class="col py-4">
-									<input type="text" class="form-control" placeholder="First name" aria-label="First name">
+							<div class="" data-aos="fade-up" data-aos-duration="1500">
+							    <form class="row tab-content-t  p-4 needs-validation" novalidate>
+								  <div class="col-6  ">
+									<input type="text" class="form-control" placeholder="First name" aria-label="First name" required>
 								  </div>
-								  <div class="col py-4">
-									<input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+								  <div class="col-6   ">
+									<input type="text" class="form-control" placeholder="Last name" aria-label="Last name" required>
 								  </div>
-									<div class="col-12 ">
-									<input type="text" class="form-control" placeholder="subject" aria-label="subject">
+									<div class="col-12 py-3 ">
+									<input type="text" class="form-control" placeholder="subject" aria-label="subject" required>
 								  </div>
-									<div class="col-12 py-5">
+									<div class="col-12 py-3">
 										 <textarea cols="" rows="4" placeholder="message " class="p-4" width="100%" ></textarea>
 									</div>
 								<div class="nav-btn  last">
-									<button type="button" class="btn btn-outline-danger px-4 py-2 mb-5 ban-btn">Send Message</button>
+									<button type="submit" class="btn btn-outline-danger px-4 py-2 mb-3 active  ">Send Message</button>
 								</div>
+							  </form>
 							</div>
 						</div>
 				
