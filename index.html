@@ -12,6 +12,8 @@
 		<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 		<script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
 		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+		<link rel="stylesheet" href="js/owl.carousel.min.css">
+		<link rel="stylesheet" href="js/owl.theme.default.min.css">
 		
 </head>
 	<body>
@@ -20,52 +22,54 @@
 			<div class="container">
 				<div class="row">
 					<nav class="navbar navbar-expand-lg navbar-light bg-#fff">
-					  <div class="container-fluid">
+					    <div class="container">
 							<a class="navbar-brand logo fs-2" href="#">Presento<span>.</span></a>
+							<div class="nav-btn order-lg-2">
+								<button type="button" class="btn btn-outline-danger">Get started</button>
+							</div>
 							<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 							  <span class="navbar-toggler-icon"></span>
 							</button>
-							<div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-							<ul class="navbar-nav menu ">
-								<li class="nav-item">
-								  <a class="nav-link active px-2" aria-current="page" href="#">Home</a>
-								</li>
-								<li class="nav-item">
-								  <a class="nav-link px-2" href="#">About </a>
-								</li>
-								<li class="nav-item">
-								  <a class="nav-link px-2" href="#">Serives</a>
-								</li>
-								<li class="nav-item">
-								  <a class="nav-link px-2" href="#">Portfolio</a>
-								</li>
-								<li class="nav-item">
-								  <a class="nav-link px-2" href="#">Team</a>
-								</li>
-								<li class="nav-item">
-								  <a class="nav-link" href="#">Blog</a>
-								</li>
-								<li class="nav-item dropdown px-2">
-								  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-									Dropdown 
-								  </a>
-								  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-									<li><a class="dropdown-item" href="#">Drop Down 1</a></li>
-									<li><a class="dropdown-item" href="#">Deep Drop Down </a></li>
-									<li><a class="dropdown-item" href="#">Drop Down 2</a></li>
-									<li><a class="dropdown-item" href="#">Drop Down 3</a></li>
-									<li><a class="dropdown-item" href="#">Drop Down 4</a></li>
-								  </ul>
-								</li>
-								<li class="nav-item">
-								  <a class="nav-link px-2" href="#">contact</a>
-								</li>
-							</ul>
-							<div class="nav-btn px-4 ">
-								<button type="button" class="btn btn-outline-danger px-4">Get started</button>
-							</div>
-						</div>
-					  </div>
+							<div class="collapse navbar-collapse justify-content-end order-lg-1" id="navbarNavDropdown">
+								<ul class="navbar-nav menu">
+									<li class="nav-item">
+									  <a class="nav-link active px-3" aria-current="page" href="#">Home</a>
+									</li>
+									<li class="nav-item">
+									  <a class="nav-link px-3" href="#about">About </a>
+									</li>
+									<li class="nav-item">
+									  <a class="nav-link px-3" href="#Serives">Serives</a>
+									</li>
+									<li class="nav-item">
+									  <a class="nav-link px-3" href="#Portfolio">Portfolio</a>
+									</li>
+									<li class="nav-item">
+									  <a class="nav-link px-3" href="#team">Team</a>
+									</li>
+									<li class="nav-item">
+									  <a class="nav-link px-3" href="#">Blog</a>
+									</li>
+									<li class="nav-item dropdown px-3">
+									  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+										Drop Down 
+									  </a>
+									  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+										<li><a class="dropdown-item" href="#">Drop Down 1</a></li>
+										<li><a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+										Deep Drop Down </a></li>
+										<li><a class="dropdown-item" href="#">Drop Down 2</a></li>
+										<li><a class="dropdown-item" href="#">Drop Down 3</a></li>
+										<li><a class="dropdown-item" href="#">Drop Down 4</a></li>
+									  </ul>
+									</li>
+									<li class="nav-item">
+									  <a class="nav-link px-3" href="#contact">contact</a>
+									</li>
+								</ul>
+						    </div>
+							
+					    </div>
 					</nav>
 				</div>
 			</div>
@@ -73,13 +77,13 @@
 		<!----------------- header end---------------------- -->
 		<section class="banner py-5">
 			<div class="container">
-				<div class="row">
-					<div class="col-lg-5 " data-aos="zoom-out" data-aos-duration="1500" >
+				<div class="row py-5">
+					<div class="col-lg-5 py-5 mb-5 " data-aos="zoom-out" data-aos-duration="1500" >
 					 
 					   <h1 class="py-3">Bettter digital experience with Presento</h1>
 						<h2 class="pb-3">We are team of talented designers making websites with Bootstrap</h2>
 							<div class="nav-btn mb-5 nav-btn-1">
-								<a href="" class=" px-4 py-2 mb-5 ban-btn">Get started</a>
+								<a href="" class=" px-4 py-2   mb-5 ban-btn">Get started</a>
 							</div>
 					</div>
 				</div>
@@ -88,46 +92,248 @@
 		<!-- -------------------banner end------------------- -->
         <section class="clients py-5">
 			<div class="container">
-				<div class="row "  data-aos="zoom-in" data-aos-duration="1500" >
-					<div class="col-lg-2 px-5 col-md-3 col-sm-3 col-6">
-					  <img src="img/clients/client-1.png"/>
-					  
-					</div>
-						<div class="col-lg-2 px-5 col-md-3 col-sm-3 col-6">
-					  <img src="img/clients/client-2.png"/>
-					  
-					</div>
-						<div class="col-lg-2 px-5 col-md-3 col-sm-3 d-none d-sm-block d-md-block d-lg-block">
-					  <img src="img/clients/client-3.png"/>
-					  
-					</div>
-					<div class="col-lg-2 px-5 col-md-3 col-sm-3 d-none d-sm-block d-md-block d-lg-block">
-					  <img src="img/clients/client-4.png "/>
-					  
-					</div>
-					<div class="col-lg-2 px-5 d-none d-lg-block">
-					  <img src="img/clients/client-5.png"/>
-					  
-					</div>
-					<div class="col-lg-2 px-5 d-none d-lg-block">
-					  <img src="img/clients/client-6.png"/>
-					  
-					</div>
-					<div class="circle">
-					   <span class="active"></span>
-					     <span></span>
-						    <span></span>
-							  <span></span>
-							    <span></span>
-								  <span></span>
-								   <span></span>
-								  <span></span>
-					</div>
+			<div id="carouselExampleIndicators" class="carousel slide circle" data-bs-ride="carousel">
+			    <div class="carousel-indicators">
+					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
+					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 8"></button>
+			    </div>
+			<div class="carousel-inner">
+						<div class="carousel-item active">
+							<div class="row "  data-aos="zoom-in" data-aos-duration="1500" >
+										<div class="col-lg-2 px-5 col-md-3 col-sm-3 col-6">
+										  <img src="img/clients/client-1.png"/>
+										  
+										</div>
+											<div class="col-lg-2 px-5 col-md-3 col-sm-3 col-6">
+										  <img src="img/clients/client-2.png"/>
+										  
+										</div>
+											<div class="col-lg-2 px-5 col-md-3 col-sm-3 d-none d-sm-block d-md-block d-lg-block">
+										  <img src="img/clients/client-3.png"/>
+										  
+										</div>
+										<div class="col-lg-2 px-5 col-md-3 col-sm-3 d-none d-sm-block d-md-block d-lg-block">
+										  <img src="img/clients/client-4.png "/>
+										  
+										</div>
+										<div class="col-lg-2 px-5 d-none d-lg-block">
+										  <img src="img/clients/client-5.png"/>
+										  
+										</div>
+										<div class="col-lg-2 px-5 d-none d-lg-block">
+										  <img src="img/clients/client-6.png"/>
+										  
+										</div>
+							</div>
+						</div>
+			<div class="carousel-item">
+			    <div class="row "  data-aos="zoom-in" data-aos-duration="1500" >
+							<div class="col-lg-2 px-5 col-md-3 col-sm-3 col-6">
+							  <img src="img/clients/client-2.png"/>
+							  
+							</div>
+								<div class="col-lg-2 px-5 col-md-3 col-sm-3 col-6">
+							  <img src="img/clients/client-3.png"/>
+							  
+							</div>
+								<div class="col-lg-2 px-5 col-md-3 col-sm-3 d-none d-sm-block d-md-block d-lg-block">
+							  <img src="img/clients/client-4.png"/>
+							  
+							</div>
+							<div class="col-lg-2 px-5 col-md-3 col-sm-3 d-none d-sm-block d-md-block d-lg-block">
+							  <img src="img/clients/client-5.png "/>
+							  
+							</div>
+							<div class="col-lg-2 px-5 d-none d-lg-block">
+							  <img src="img/clients/client-6.png"/>
+							  
+							</div>
+							<div class="col-lg-2 px-5 d-none d-lg-block">
+							  <img src="img/clients/client-7.png"/>
+							  
+							</div>
 				</div>
 			</div>
+			<div class="carousel-item">
+				    <div class="row "  data-aos="zoom-in" data-aos-duration="1500" >
+							<div class="col-lg-2 px-5 col-md-3 col-sm-3 col-6">
+							  <img src="img/clients/client-3.png"/>
+							  
+							</div>
+								<div class="col-lg-2 px-5 col-md-3 col-sm-3 col-6">
+							  <img src="img/clients/client-4.png"/>
+							  
+							</div>
+								<div class="col-lg-2 px-5 col-md-3 col-sm-3 d-none d-sm-block d-md-block d-lg-block">
+							  <img src="img/clients/client-5.png"/>
+							  
+							</div>
+							<div class="col-lg-2 px-5 col-md-3 col-sm-3 d-none d-sm-block d-md-block d-lg-block">
+							  <img src="img/clients/client-6.png "/>
+							  
+							</div>
+							<div class="col-lg-2 px-5 d-none d-lg-block">
+							  <img src="img/clients/client-7.png"/>
+							  
+							</div>
+							<div class="col-lg-2 px-5 d-none d-lg-block">
+							  <img src="img/clients/client-8.png"/>
+							  
+							</div>
+					</div>
+			</div>
+			<div class="carousel-item">
+					<div class="row "  data-aos="zoom-in" data-aos-duration="1500" >
+							<div class="col-lg-2 px-5 col-md-3 col-sm-3 col-6">
+							  <img src="img/clients/client-4.png"/>
+							  
+							</div>
+								<div class="col-lg-2 px-5 col-md-3 col-sm-3 col-6">
+							  <img src="img/clients/client-5.png"/>
+							  
+							</div>
+								<div class="col-lg-2 px-5 col-md-3 col-sm-3 d-none d-sm-block d-md-block d-lg-block">
+							  <img src="img/clients/client-6.png"/>
+							  
+							</div>
+							<div class="col-lg-2 px-5 col-md-3 col-sm-3 d-none d-sm-block d-md-block d-lg-block">
+							  <img src="img/clients/client-7.png "/>
+							  
+							</div>
+							<div class="col-lg-2 px-5 d-none d-lg-block">
+							  <img src="img/clients/client-8.png"/>
+							  
+							</div>
+							<div class="col-lg-2 px-5 d-none d-lg-block">
+							  <img src="img/clients/client-1.png"/>
+							  
+							</div>
+					</div>
+			</div>
+			<div class="carousel-item">
+					<div class="row "  data-aos="zoom-in" data-aos-duration="1500" >
+							<div class="col-lg-2 px-5 col-md-3 col-sm-3 col-6">
+							  <img src="img/clients/client-5.png"/>
+							  
+							</div>
+								<div class="col-lg-2 px-5 col-md-3 col-sm-3 col-6">
+							  <img src="img/clients/client-6.png"/>
+							  
+							</div>
+								<div class="col-lg-2 px-5 col-md-3 col-sm-3 d-none d-sm-block d-md-block d-lg-block">
+							  <img src="img/clients/client-7.png"/>
+							  
+							</div>
+							<div class="col-lg-2 px-5 col-md-3 col-sm-3 d-none d-sm-block d-md-block d-lg-block">
+							  <img src="img/clients/client-8.png "/>
+							  
+							</div>
+							<div class="col-lg-2 px-5 d-none d-lg-block">
+							  <img src="img/clients/client-1.png"/>
+							  
+							</div>
+							<div class="col-lg-2 px-5 d-none d-lg-block">
+							  <img src="img/clients/client-2.png"/>
+							  
+							</div>
+					</div>
+			</div>
+			<div class="carousel-item">
+				<div class="row "  data-aos="zoom-in" data-aos-duration="1500" >
+							<div class="col-lg-2 px-5 col-md-3 col-sm-3 col-6">
+							  <img src="img/clients/client-6.png"/>
+							  
+							</div>
+								<div class="col-lg-2 px-5 col-md-3 col-sm-3 col-6">
+							  <img src="img/clients/client-7.png"/>
+							  
+							</div>
+								<div class="col-lg-2 px-5 col-md-3 col-sm-3 d-none d-sm-block d-md-block d-lg-block">
+							  <img src="img/clients/client-8.png"/>
+							  
+							</div>
+							<div class="col-lg-2 px-5 col-md-3 col-sm-3 d-none d-sm-block d-md-block d-lg-block">
+							  <img src="img/clients/client-1.png "/>
+							  
+							</div>
+							<div class="col-lg-2 px-5 d-none d-lg-block">
+							  <img src="img/clients/client-2.png"/>
+							  
+							</div>
+							<div class="col-lg-2 px-5 d-none d-lg-block">
+							  <img src="img/clients/client-3.png"/>
+							  
+							</div>
+				</div>
+			</div>
+			<div class="carousel-item">
+					<div class="row "  data-aos="zoom-in" data-aos-duration="1500" >
+							<div class="col-lg-2 px-5 col-md-3 col-sm-3 col-6">
+							  <img src="img/clients/client-7.png"/>
+							  
+							</div>
+								<div class="col-lg-2 px-5 col-md-3 col-sm-3 col-6">
+							  <img src="img/clients/client-8.png"/>
+							  
+							</div>
+								<div class="col-lg-2 px-5 col-md-3 col-sm-3 d-none d-sm-block d-md-block d-lg-block">
+							  <img src="img/clients/client-1.png"/>
+							  
+							</div>
+							<div class="col-lg-2 px-5 col-md-3 col-sm-3 d-none d-sm-block d-md-block d-lg-block">
+							  <img src="img/clients/client-2.png "/>
+							  
+							</div>
+							<div class="col-lg-2 px-5 d-none d-lg-block">
+							  <img src="img/clients/client-3.png"/>
+							  
+							</div>
+							<div class="col-lg-2 px-5 d-none d-lg-block">
+							  <img src="img/clients/client-4.png"/>
+							  
+							</div>
+							</div>
+			</div>
+			<div class="carousel-item">
+				   <div class="row "  data-aos="zoom-in" data-aos-duration="1500" >
+							<div class="col-lg-2 px-5 col-md-3 col-sm-3 col-6">
+							  <img src="img/clients/client-8.png"/>
+							  
+							</div>
+								<div class="col-lg-2 px-5 col-md-3 col-sm-3 col-6">
+							  <img src="img/clients/client-1.png"/>
+							  
+							</div>
+								<div class="col-lg-2 px-5 col-md-3 col-sm-3 d-none d-sm-block d-md-block d-lg-block">
+							  <img src="img/clients/client-2.png"/>
+							  
+							</div>
+							<div class="col-lg-2 px-5 col-md-3 col-sm-3 d-none d-sm-block d-md-block d-lg-block">
+							  <img src="img/clients/client-3.png "/>
+							  
+							</div>
+							<div class="col-lg-2 px-5 d-none d-lg-block">
+							  <img src="img/clients/client-4.png"/>
+							  
+							</div>
+							<div class="col-lg-2 px-5 d-none d-lg-block">
+							  <img src="img/clients/client-5.png"/>
+							  
+							</div>
+							</div>
+			</div>
+    </div>
+</div>
+				</div>
 		</section>
 		<!-- -----------clients end------------ -->
-		<section class="about my-5 py-5">
+		<section class="about my-5 py-5" id="about">
 				<div class="container">
 					<div class="row">
 						<div class="col-lg-6 mb-2 py-5">
@@ -246,38 +452,38 @@
 					<li class="nav-item col-6 col-md-6 col-xs-4" role="presentation" data-aos="fade-up" data-aos-duration="1500">
 						<a class="nav-link active" id="home-tab" data-bs-toggle="tab" href="#home"  role="tab" aria-controls="home" aria-selected="true">
 						   <iconify-icon icon="ri:gps-line"></iconify-icon>
-							<span class="d-none d-md-block d-lg-block">Modi sit est dela pireda nest</span>
+							<span class="d-none d-md-none d-lg-block">Modi sit est dela pireda nest</span>
 						</a>
 					</li>
 					<li class="nav-item col-6 col-md-6 col-xs-4" role="presentation" data-aos="fade-up" data-aos-duration="1500">
 						<a class="nav-link " id="profile-tab" data-bs-toggle="tab" href="#profile"  role="tab" aria-controls="profile" aria-selected="false">
 							   <iconify-icon icon="ri:body-scan-line"></iconify-icon>
-							<span  class="d-none d-md-block d-lg-block">Unde praesenti mara setra le</span>
+							<span  class="d-none d-md-none d-lg-block">Unde praesenti mara setra le</span>
 						<a>
 					</li>
 					<li class="nav-item col-6 col-md-6 col-xs-4" role="presentation" data-aos="fade-up" data-aos-duration="1500">
 						<a class="nav-link" id="contact-tab" data-bs-toggle="tab" href="#contact"  role="tab" aria-controls="contact" aria-selected="false">
 						   <iconify-icon icon="ri:sun-line"></iconify-icon>
-							<span  class="d-none d-md-block d-lg-block">Pariatur explica nitro dela</span>
+							<span  class="d-none d-md-none d-lg-block">Pariatur explica nitro dela</span>
 						</a>
 					</li>
 					  <li class="nav-item col-6 col-md-6 col-xs-4" role="presentation" data-aos="fade-up" data-aos-duration="1500">
 						<a class="nav-link" id="contact4-tab" data-bs-toggle="tab" href="#contact-4"  role="tab" aria-controls="contact-4" aria-selected="false">
 						  <iconify-icon icon="ri:store-line"></iconify-icon>
-							<span  class="d-none d-md-block d-lg-block">Pariatur explica nitro dela</span>
+							<span  class="d-none d-md-none d-lg-block">Pariatur explica nitro dela</span>
 						</a>
 					  </li>
 				</ul>
 			</div>	
 			
-					<div class="tab-content" id="myTabContent" >
-					  <div class="tab-pane fade show active abt-content" id="home" role="tabpanel" aria-labelledby="home-tab"  data-aos="fade-up" data-aos-duration="1000" >
+					<div class="tab-content" id="myTabContent" data-aos="fade-up" data-aos-duration="1000" >
+					  <div class="tab-pane fade show active abt-content" id="home" role="tabpanel" aria-labelledby="home-tab"   >
 						<div class="row my-4">
 							<div class="col-lg-6">
 								<h4>Neque exercitationem debitis soluta quos debitis quo mollitia officia est</h4>
 								
 								<p class="first">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-								<ul>
+								<ul class=" p-0">
 								<li><iconify-icon icon="ri:check-double-line"></iconify-icon>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
 		
 								<li><iconify-icon icon="ri:check-double-line"></iconify-icon> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
@@ -300,7 +506,7 @@
 								<h4>Neque exercitationem debitis soluta quos debitis quo mollitia officia est</h4>
 								
 								<p class="first">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-								<ul>
+								<ul class=" p-0">
 								<li><iconify-icon icon="ri:check-double-line"></iconify-icon>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
 		
 								<li><iconify-icon icon="ri:check-double-line"></iconify-icon> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
@@ -323,7 +529,7 @@
 								<h4>Neque exercitationem debitis soluta quos debitis quo mollitia officia est</h4>
 								
 								<p class="first">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-								<ul>
+								<ul class=" p-0">
 								<li><iconify-icon icon="ri:check-double-line"></iconify-icon>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
 		
 								<li><iconify-icon icon="ri:check-double-line"></iconify-icon> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
@@ -346,7 +552,7 @@
 								<h4>Neque exercitationem debitis soluta quos debitis quo mollitia officia est</h4>
 								
 								<p class="first">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-								<ul>
+								<ul class=" p-0">
 								<li><iconify-icon icon="ri:check-double-line"></iconify-icon>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
 		
 								<li><iconify-icon icon="ri:check-double-line"></iconify-icon> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
@@ -366,7 +572,7 @@
 					</div>
 			</div>
 			<!------------------- abt-cont------------------------------- -->
-			<section class="services my-5 py-5">
+			<section class="services my-5 py-5" id="Serives">
 			     
 				<div class="container">
 				    <div class="header-sec" data-aos="fade-up" data-aos-duration="1500">
@@ -453,7 +659,7 @@
 				</div>
 			</section>
 			<!-- service----------------------- -->
-			<section class="protofolio py-3">
+			<section class="protofolio py-3" id="Portfolio">
 				<div class="container">
 				    <div class="header-sec" data-aos="fade-up" data-aos-duration="1500">
 					  <h1 style="color:#000;">PORTFOLIO</h1>
@@ -471,9 +677,11 @@
 							<div class="port">
 						     <img src="img/portfolio/portfolio-1.jpg"/>
 								<div class="port-cont">
+								
 								 <h1>App1</h1>
 								 <h2>APP</h2>
 								  <p> <iconify-icon icon="material-symbols:add"></iconify-icon>   <iconify-icon icon="mdi:link-variant"></iconify-icon></p>
+								
 								</div>
 							</div>
 						</div>
@@ -577,7 +785,17 @@
 					  <p style="color:#000;">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. 
 					  Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.</p>
 				    </div>
-					<div class="row">
+					<div id="carouselExampleIndicators" class="carousel slide circle" data-bs-ride="carousel">
+						    <div class="carousel-indicators">
+								<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+								<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+								<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+								<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+								<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+						    </div>
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+							  					<div class="row">
 						<div class="col-lg-4 col-md-12" data-aos="fade-up" data-aos-duration="1500">
 							<div class="test-1 d-none d-lg-block">
 							    <div class="test-flex">
@@ -628,20 +846,243 @@
 							</div>
 		
 						</div>
-					<div class="circle pt-4" data-aos="fade-up" data-aos-duration="1500">
-					   <span class="active"></span>
-					     <span></span>
-						    <span></span>
-							  <span></span>
-							    <span></span>
-								
-					</div>
+
 				
 					</div>
+							</div>
+							<div class="carousel-item">
+							  					<div class="row">
+						<div class="col-lg-4 col-md-12" data-aos="fade-up" data-aos-duration="1500">
+							<div class="test-1 d-none d-lg-block">
+							    <div class="test-flex">
+								   <img src="img/testimonials/testimonials-2.jpg"/>
+								   <div class="tests">
+									<h1>Jena karlis</h1>
+									<h2>store owner</h2>
+								   </div>
+							    </div>
+						
+			                    <p><iconify-icon icon="bxs:quote-alt-left"></iconify-icon> Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat 
+								   minim velit minim dolor enim duis
+								   veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam. <iconify-icon icon="bxs:quote-alt-right" class=""></iconify-icon></p>	
+							</div>
+						</div>
+						<div class="col-lg-4  d-none d-lg-block" data-aos="fade-up" data-aos-duration="1500"  >
+							<div class="test-1">
+							  <div class="test-flex">
+								   <img src="img/testimonials/testimonials-3.jpg"/>
+								   <div class="tests">
+									<h1>Jena karlis</h1>
+									<h2>store owner</h2>
+								   </div>
+							    </div>
+						
+			                    <p><iconify-icon icon="bxs:quote-alt-left"></iconify-icon> Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat 
+								   minim velit minim dolor enim duis
+								   veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam. <iconify-icon icon="bxs:quote-alt-right" class=""></iconify-icon></p>	
+						
+							
+							</div>
+						</div>
+						<div class="col-lg-4 " data-aos="fade-up" data-aos-duration="1500">
+							<div class="test-1">
+							  <div class="test-flex">
+								   <img src="img/testimonials/testimonials-4.jpg"/>
+								   <div class="tests">
+									<h1>Jena karlis</h1>
+									<h2>store owner</h2>
+								   </div>
+							    </div>
+						
+			                    <p><iconify-icon icon="bxs:quote-alt-left"></iconify-icon> Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat 
+								   minim velit minim dolor enim duis
+								   veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam. <iconify-icon icon="bxs:quote-alt-right" class=""></iconify-icon></p>	
+							 
+		
+							</div>
+		
+						</div>
+
+				
+					</div>
+							</div>
+														<div class="carousel-item">
+							  					<div class="row">
+						<div class="col-lg-4 col-md-12" data-aos="fade-up" data-aos-duration="1500">
+							<div class="test-1 d-none d-lg-block">
+							    <div class="test-flex">
+								   <img src="img/testimonials/testimonials-3.jpg"/>
+								   <div class="tests">
+									<h1>Jena karlis</h1>
+									<h2>store owner</h2>
+								   </div>
+							    </div>
+						
+			                    <p><iconify-icon icon="bxs:quote-alt-left"></iconify-icon> Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat 
+								   minim velit minim dolor enim duis
+								   veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam. <iconify-icon icon="bxs:quote-alt-right" class=""></iconify-icon></p>	
+							</div>
+						</div>
+						<div class="col-lg-4  d-none d-lg-block" data-aos="fade-up" data-aos-duration="1500"  >
+							<div class="test-1">
+							  <div class="test-flex">
+								   <img src="img/testimonials/testimonials-4.jpg"/>
+								   <div class="tests">
+									<h1>Jena karlis</h1>
+									<h2>store owner</h2>
+								   </div>
+							    </div>
+						
+			                    <p><iconify-icon icon="bxs:quote-alt-left"></iconify-icon> Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat 
+								   minim velit minim dolor enim duis
+								   veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam. <iconify-icon icon="bxs:quote-alt-right" class=""></iconify-icon></p>	
+						
+							
+							</div>
+						</div>
+						<div class="col-lg-4 " data-aos="fade-up" data-aos-duration="1500">
+							<div class="test-1">
+							  <div class="test-flex">
+								   <img src="img/testimonials/testimonials-5.jpg"/>
+								   <div class="tests">
+									<h1>Jena karlis</h1>
+									<h2>store owner</h2>
+								   </div>
+							    </div>
+						
+			                    <p><iconify-icon icon="bxs:quote-alt-left"></iconify-icon> Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat 
+								   minim velit minim dolor enim duis
+								   veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam. <iconify-icon icon="bxs:quote-alt-right" class=""></iconify-icon></p>	
+							 
+		
+							</div>
+		
+						</div>
+
+				
+					</div>
+							</div>
+														<div class="carousel-item">
+							  					<div class="row">
+						<div class="col-lg-4 col-md-12" data-aos="fade-up" data-aos-duration="1500">
+							<div class="test-1 d-none d-lg-block">
+							    <div class="test-flex">
+								   <img src="img/testimonials/testimonials-4.jpg"/>
+								   <div class="tests">
+									<h1>Jena karlis</h1>
+									<h2>store owner</h2>
+								   </div>
+							    </div>
+						
+			                    <p><iconify-icon icon="bxs:quote-alt-left"></iconify-icon> Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat 
+								   minim velit minim dolor enim duis
+								   veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam. <iconify-icon icon="bxs:quote-alt-right" class=""></iconify-icon></p>	
+							</div>
+						</div>
+						<div class="col-lg-4  d-none d-lg-block" data-aos="fade-up" data-aos-duration="1500"  >
+							<div class="test-1">
+							  <div class="test-flex">
+								   <img src="img/testimonials/testimonials-5.jpg"/>
+								   <div class="tests">
+									<h1>Jena karlis</h1>
+									<h2>store owner</h2>
+								   </div>
+							    </div>
+						
+			                    <p><iconify-icon icon="bxs:quote-alt-left"></iconify-icon> Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat 
+								   minim velit minim dolor enim duis
+								   veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam. <iconify-icon icon="bxs:quote-alt-right" class=""></iconify-icon></p>	
+						
+							
+							</div>
+						</div>
+						<div class="col-lg-4 " data-aos="fade-up" data-aos-duration="1500">
+							<div class="test-1">
+							  <div class="test-flex">
+								   <img src="img/testimonials/testimonials-1.jpg"/>
+								   <div class="tests">
+									<h1>Jena karlis</h1>
+									<h2>store owner</h2>
+								   </div>
+							    </div>
+						
+			                    <p><iconify-icon icon="bxs:quote-alt-left"></iconify-icon> Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat 
+								   minim velit minim dolor enim duis
+								   veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam. <iconify-icon icon="bxs:quote-alt-right" class=""></iconify-icon></p>	
+							 
+		
+							</div>
+		
+						</div>
+
+				
+					</div>
+							</div>
+														<div class="carousel-item">
+							  					<div class="row">
+						<div class="col-lg-4 col-md-12" data-aos="fade-up" data-aos-duration="1500">
+							<div class="test-1 d-none d-lg-block">
+							    <div class="test-flex">
+								   <img src="img/testimonials/testimonials-5.jpg"/>
+								   <div class="tests">
+									<h1>Jena karlis</h1>
+									<h2>store owner</h2>
+								   </div>
+							    </div>
+						
+			                    <p><iconify-icon icon="bxs:quote-alt-left"></iconify-icon> Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat 
+								   minim velit minim dolor enim duis
+								   veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam. <iconify-icon icon="bxs:quote-alt-right" class=""></iconify-icon></p>	
+							</div>
+						</div>
+						<div class="col-lg-4  d-none d-lg-block" data-aos="fade-up" data-aos-duration="1500"  >
+							<div class="test-1">
+							  <div class="test-flex">
+								   <img src="img/testimonials/testimonials-1.jpg"/>
+								   <div class="tests">
+									<h1>Jena karlis</h1>
+									<h2>store owner</h2>
+								   </div>
+							    </div>
+						
+			                    <p><iconify-icon icon="bxs:quote-alt-left"></iconify-icon> Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat 
+								   minim velit minim dolor enim duis
+								   veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam. <iconify-icon icon="bxs:quote-alt-right" class=""></iconify-icon></p>	
+						
+							
+							</div>
+						</div>
+						<div class="col-lg-4 " data-aos="fade-up" data-aos-duration="1500">
+							<div class="test-1">
+							  <div class="test-flex">
+								   <img src="img/testimonials/testimonials-2.jpg"/>
+								   <div class="tests">
+									<h1>Jena karlis</h1>
+									<h2>store owner</h2>
+								   </div>
+							    </div>
+						
+			                    <p><iconify-icon icon="bxs:quote-alt-left"></iconify-icon> Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat 
+								   minim velit minim dolor enim duis
+								   veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam. <iconify-icon icon="bxs:quote-alt-right" class=""></iconify-icon></p>	
+							 
+		
+							</div>
+		
+						</div>
+
+				
+					</div>
+							</div>
+
+						</div>
+					
+                    </div>
+
 				</div>
 			</section>
 			<!-- test------------------- -->
-			<section class="piricing my-5 py-5">
+			<section class="piricing my-5 py-5" id="piricing">
 				<div class="container">
 					<div class="header-sec" data-aos="fade-up" data-aos-duration="1500">
 					  <h1>PRICING</h1>
@@ -787,7 +1228,7 @@
 				</div>
 			</section>
 			<!-- question------------------------- -->
-			<section class="team my-5 py-5">
+			<section class="team my-5 py-5" id="team">
 				<div class="container">
 				 	<div class="header-sec" data-aos="fade-up" data-aos-duration="1500">
 					  <h1 class="px-4">TEAM</h1>
@@ -795,7 +1236,7 @@
 					  Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.</p>
 				    </div>
 					<div class="row gy-3">
-						<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="1500">
+						<div class="col-lg-3 col-md-6 col-sm-12" data-aos="fade-up" data-aos-duration="1500">
 							<div class="team-1">
 								<div class="team-ph">
 									<img src="img/team/team-1.jpg"/>
@@ -813,7 +1254,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="1500">
+						<div class="col-lg-3 col-md-6 col-sm-12" data-aos="fade-up" data-aos-duration="1500">
 							<div class="team-1">
 								<div class="team-ph">
 									<img src="img/team/team-2.jpg"/>
@@ -832,7 +1273,7 @@
 							
 							</div>
 						</div>
-						<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="1500">
+						<div class="col-lg-3 col-md-6 col-sm-12" data-aos="fade-up" data-aos-duration="1500">
 							<div class="team-1">
 							<div class="team-ph">
 									<img src="img/team/team-3.jpg"/>
@@ -852,11 +1293,11 @@
 							</div>
 		
 						</div>
-						<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-duration="1500">
+						<div class="col-lg-3 col-md-6 col-sm-12" data-aos="fade-up" data-aos-duration="1500">
 							<div class="team-1">
 								<div class="team-ph">
 									<img src="img/team/team-4.jpg"/>
-									<div class="apps">
+									<div class="apps ">
 									  <a href="#">	<iconify-icon icon="mdi:twitter"></iconify-icon></a>
 									  <a href="#"><iconify-icon icon="ic:twotone-facebook"></iconify-icon></a>
 									  <a href="#"><iconify-icon icon="fe:instagram"></iconify-icon></a>
@@ -876,17 +1317,17 @@
 				</div>
 			</section>
 			<!-- team----------- -->
-			<section class="contact py-3">
+			<section class="contact py-3" id="contact">
 				<div class="container">
 					<div class="header-sec" data-aos="fade-up" data-aos-duration="1500">
 					  <h1 style="color:#000;">CONTACT</h1>
 					  <p style="color:#000;">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. 
 					  Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.</p>
 				    </div>
-					<div class="row ">
+					<div class="row mb-5">
 						<div class="col-lg-6">
-							<div class="col-lg-12 col-md-12">
-								<div class="cont" data-aos="fade-up" data-aos-duration="1500">
+							<div class="col-lg-12 col-md-12 ">
+								<div class="cont " data-aos="fade-up" data-aos-duration="1500">
 									<div class="contact-1">
 									 <span><iconify-icon icon="bx:map"></iconify-icon></span>
 									</div>
@@ -901,7 +1342,7 @@
 							</div>
 							<div class="row ">
 								<div class="col-lg-6  col-md-6 style" >
-									<div class="cont" data-aos="fade-up" data-aos-duration="1500">
+									<div class="cont m-0" data-aos="fade-up" data-aos-duration="1500">
 										<div class="contact-1">
 										 <span><iconify-icon icon="bx:phone-call"></iconify-icon></span>
 										</div>
@@ -912,7 +1353,7 @@
 									</div>
 								</div>
 								<div class="col-lg-6  col-md-6">
-									<div class="cont" data-aos="fade-up" data-aos-duration="1500">
+									<div class="cont  m-0" data-aos="fade-up" data-aos-duration="1500">
 										<div class="contact-1">
 										 <span><iconify-icon icon="bx:envelope"></iconify-icon></span>
 										</div>
@@ -925,10 +1366,10 @@
 							</div>
 						
 						</div>
-			     		<div class="col-lg-6 " style="margin-top:20px;">
+			     		<div class="col-lg-6  gx-5 " style="margin-top:20px;" >
 						
 							<div class="" data-aos="fade-up" data-aos-duration="1500">
-							    <form class="row tab-content-t  p-4 needs-validation" novalidate>
+							    <form class="row tab-content-t   p-4 needs-validation" novalidate>
 								  <div class="col-6  ">
 									<input type="text" class="form-control" placeholder="First name" aria-label="First name" required>
 								  </div>
@@ -970,9 +1411,9 @@
 							<div class="footer-la">
 							     <h3>Useful Links</h3>
 								 <ul>
-								 <li><iconify-icon inline icon="bx:chevron-right"></iconify-icon><a href="#">home</a></li>
-								  <li><iconify-icon inline icon="bx:chevron-right"></iconify-icon><a href="#">about us</a></li>
-								   <li><iconify-icon inline icon="bx:chevron-right"></iconify-icon><a href="#">services</a></li>
+								 <li><iconify-icon inline icon="bx:chevron-right"></iconify-icon><a href="#">Home</a></li>
+								  <li><iconify-icon inline icon="bx:chevron-right"></iconify-icon><a href="#">About us</a></li>
+								   <li><iconify-icon inline icon="bx:chevron-right"></iconify-icon><a href="#">Services</a></li>
 								    <li><iconify-icon inline icon="bx:chevron-right"></iconify-icon><a href="#">Terms of service</a></li>
 									 <li><iconify-icon inline icon="bx:chevron-right"></iconify-icon><a href="#">Privacy policy</a></li> 
 								 </ul>
@@ -1008,12 +1449,12 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-lg-8">
-						  <div class="footer-mail"> 
+						  <div class="footer-mail justify-content-start"> 
 							  <p>Designed by<a href="#"> Mari krishnan.M</a></p>
 						  </div>
 						</div>
 						<div class="col-lg-4 col-xs-">
-							<div class="footer-logo">
+							<div class="footer-logo justify-content-end">
 							<a href="#"><iconify-icon icon="bxl:twitter"></iconify-icon></a>
 							<a href="#"><iconify-icon icon="gg:facebook"></iconify-icon></a>
 							<a href="#"><iconify-icon icon="carbon:logo-instagram"></iconify-icon></a>
@@ -1026,6 +1467,7 @@
 			</div>
 		 <script src="js/bootstrap.bundle.min.js"></script>	
 		 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		 
 		<script>
 			  AOS.init();
 		</script>
