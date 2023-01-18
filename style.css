@@ -19,7 +19,7 @@
 }
 .menu a{
 	color:#000 !important;
-	font-weight:600;	
+	font-weight:500;	
 }
 .menu .active{
 	color:#e03a3c !important;
@@ -111,7 +111,7 @@
 	
 }
 .banner h1{
-	font-size:50px;
+	font-size:48px;
 	color:#fff;
 	font-family: 'Poppins', sans-serif;
 }
@@ -396,7 +396,7 @@
 }
 .port-btn-1:hover a{
 	  background-color:#e03a3c;
-	  transition:1s;
+	  transition:0.5s;
 	  color:#fff;
 }
 
@@ -688,18 +688,19 @@
 .apps{
 	padding:10px 0px;
 	position:absolute;
-	left:50%;
+	left:16%;
 	bottom:100px;
 	display:flex;
 	justify-content:center;
 	align-items:center;
 	opacity:0;
 	transition:  0.8s;
-	transform:translateX(-50%);	
+	transform:translateY(-50%);	
 }
 
-.team-ph:hover .apps{
-	opacity:1;		
+.team-1:hover .apps{
+	opacity:1;	
+	transform:translateY(5%);
 }
 .apps iconify-icon{
 	font-size:22px;
