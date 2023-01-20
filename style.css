@@ -38,26 +38,26 @@
 	color:#fff;
 	
 }
+
 .dropdown-item:hover{
 	background-color:#fff !important;
 }
-.navbar  .dropdown:hover>.dropend{
+.navbar  .dro:hover>.dropend{
 	   opacity: 1;  
     visibility: visible;
 	transform:translateX(5px);
 	transition: 0.5s ;
 }
 
-.navbar  .dropdown .dropend{
+.navbar  .dro .dropend{
 	position:relative;
 }
-.navbar .dropdown .dropend li{
+.navbar .dro .dropend li{
 	line-height:36px;
 	padding-right:4px;
 	
 }
-.navbar .dropdown .dropend {
-     display: block;
+.navbar .dro .dropend {
     position: absolute;
     left:-105%;
 	top:0;
@@ -72,24 +72,24 @@
     transition: 0.3s;
 	border:none !important;
 }
-.navbar .dropdown{
+.navbar .dro{
 	position:relative;
 	border-radius:none !important;
 }
 .dropdown-toggle::after{
 	visibility:hidden;
 }
-.navbar .dropdown:hover>ul {
+.navbar .dro:hover>ul {
     opacity: 1;
     visibility: visible;
 	transform:translateY(5px);
 }
-.navbar .dropdown  li{
+.navbar .dro li{
 	line-height:36px;
 	padding-right:4px;
 }
-.navbar .dropdown ul{
-     display: block;
+.navbar .dro ul{
+ 
     position: absolute;
     left:0;
 	transform:translateY(30px);
@@ -134,17 +134,24 @@
 	 color:#fff;
 	 background:transparent;
 }
+.clients-img{
+	min-height:8vh;
+}
 .clients img{
 	width:100%;
 	filter:grayscale(100%);
 	opacity:0.8;
+	
 }
 .clients img:hover{
 	filter:grayscale(0%);
 }
 
 
-.circle{
+.carousel-inner{
+    position: relative;
+    width: 100%;
+  
 }
 .circle .carousel-indicators button{
 	display:inline-block;
@@ -479,12 +486,11 @@
 	padding:20px;
   box-shadow:  0px 2px 12px rgb(0 0 0 / 8%);
 	border-radius:15px;
-
+   min-height:50vh;
 }
-.carousel-inner {
- 
-     overflow:visible !important;
-	 }
+.carousel-item{
+	padding:10px;
+}
 .test-1 iconify-icon{
 	color: #fceaea;
     font-size: 26px;
@@ -613,6 +619,10 @@
 	background-color:#fff;
 		box-shadow:none;
 }
+
+.question-cont .active{
+	color:#e03a3c;
+}
 .question-cont:hover button{
 	color:#e03a3c;
 	box-shadow:none;
@@ -688,8 +698,9 @@
 .apps{
 	padding:10px 0px;
 	position:absolute;
-	left:16%;
-	bottom:100px;
+	left:0;
+	right:0;
+	bottom:80px;
 	display:flex;
 	justify-content:center;
 	align-items:center;
@@ -710,7 +721,7 @@
 	width:40px ;
 	height:40px;
 	padding:10px;
-	margin:0px 2px;
+	margin:0px 4px;
 	border-radius:50%;
 
 }
