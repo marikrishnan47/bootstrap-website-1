@@ -4,14 +4,15 @@
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>bootstrap-layout-website</title>
+		<title>Presento bootstrapmade</title>
+		<link rel="icon" href="img/favicon.png" type="img/x-icon">
         <link rel="stylesheet" href="style.css">
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 		<script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
-		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+		<!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
 		
 		
 </head>
@@ -23,40 +24,40 @@
 							<div class="nav-btn order-lg-2 ">
 								<button type="button" class="btn btn-outline-danger">Get started</button>
 							</div>
-							<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+							<button class="navbar-toggler" type="button" onclick="change()">
 							  <span class="navbar-toggler-icon"></span>
 							</button>
-							<div class="collapse navbar-collapse justify-content-end order-lg-1" id="navbarNavDropdown">
-								<ul class="navbar-nav menu">
+							<div class="collapse navbar-collapse justify-content-end order-lg-1"id="navbarNav">
+								<ul class="navbar-nav menu" id="now">
 									<li class="nav-item">
-									  <a class="nav-link active px-2" aria-current="page" href="#">Home</a>
+									  <a class="nav-link active px-2" onclick="change()" href="#">Home</a>
+									</li>
+									<li class="nav-item bi mobile-nav-toggle d-none bi-list">
+									  <a class="nav-link px-2" href="#about" onclick="change()">About </a>
 									</li>
 									<li class="nav-item">
-									  <a class="nav-link px-2" href="#about">About </a>
+									  <a class="nav-link px-2" href="#Serives" onclick="change()">Serivces</a>
 									</li>
 									<li class="nav-item">
-									  <a class="nav-link px-2" href="#Serives">Serives</a>
+									  <a class="nav-link px-2" href="#Portfolio" onclick="change()">Portfolio</a>
 									</li>
 									<li class="nav-item">
-									  <a class="nav-link px-2" href="#Portfolio">Portfolio</a>
+									  <a class="nav-link px-2" href="#team" onclick="change()">Team</a>
 									</li>
 									<li class="nav-item">
-									  <a class="nav-link px-2" href="#team">Team</a>
-									</li>
-									<li class="nav-item">
-									  <a class="nav-link px-2" href="#">Blog</a>
+									  <a class="nav-link px-2" href="#" onclick="change()">Blog</a>
 									</li>
 									<li class="nav-item dro ">
 									  <a class="nav-link " href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dro" aria-expanded="false">
 										Drop Down <iconify-icon inline icon="bi:chevron-down"></iconify-icon>
 									  </a>
-										<ul class="dropdown-menu justify-content-strat d-lg-block " aria-labelledby="navbarDropdownMenuLink">
+										<ul class=" justify-content-strat d-lg-block " >
 											<li><a class="dropdown-item " href="#">Drop Down 1</a></li>
 											<li  class="nav-item dro ">
 											   <a class="nav-link dropdown-toggle  text-strat" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dro" aria-expanded="false">
 												Deep Drop Down <iconify-icon inline icon="bi:chevron-right" class="ps-4"></iconify-icon> </a>
 												
-												<ul class="dropdown-menu  dropend justify-content-strat d-lg-block" aria-labelledby="navbarDropdownMenuLink">
+												<ul class=" dropend justify-content-strat d-lg-block" >
 													<li><a class="dropdown-item " href="#">Deep Drop Down 1</a></li>
 													<li><a class="dropdown-item " href="#">Deep Drop Down 2</a></li>
 													<li><a class="dropdown-item " href="#">Deep Drop Down 3</a></li>
@@ -70,7 +71,7 @@
 										 </ul>
 									</li>
 									<li class="nav-item">
-									  <a class="nav-link px-2 pe-4" href="#contact">contact</a>
+									  <a class="nav-link px-2 pe-4" href="#contact" onclick="change()">contact</a>
 									</li>
 								</ul>
 						    </div>
@@ -113,7 +114,7 @@
 										  <img src="img/clients/client-1.png"/>
 										  
 										</div>
-											<div class="col-lg-2 px-5 col-md-3 col-sm-3 col-6 clients-img">
+										<div class="col-lg-2 px-5 col-md-3 col-sm-3 col-6 clients-img">
 										  <img src="img/clients/client-2.png"/>
 										  
 										</div>
@@ -301,7 +302,7 @@
 							  <img src="img/clients/client-4.png"/>
 							  
 							</div>
-							</div>
+					</div>
 			</div>
 			<div class="carousel-item">
 				   <div class="row align-items-center"  data-aos="zoom-in" data-aos-duration="1500" data-aos-once="true" >
@@ -332,7 +333,7 @@
 							</div>
 			</div>
     </div>
-</div>
+         </div>
 				</div>
 		</section>
 		<!-- -----------clients end------------ -->
@@ -662,7 +663,7 @@
 				</div>
 			</section>
 			<!-- service----------------------- -->
-			<section class="protofolio py-3" id="Portfolio">
+			<section class="protofolio py-5" id="Portfolio">
 				<div class="container">
 				    <div class="header-sec" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
 					  <h1 style="color:#000;">PORTFOLIO</h1>
@@ -670,10 +671,10 @@
 					  Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.</p>
 				    </div>
 					<ul class="port-btn" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
-					  	<li class="port-btn-1"><a href="home" class="active">ALL </a></li>
-						<li  class="port-btn-1"><a href="about"> APP</a></li>
-						<li  class="port-btn-1"><a href="services">CARD </a></li>
-						<li  class="port-btn-1"><a href="portfoilo">WEB</a> </li>
+					  	<li class="port-btn-1"><a href="#" class="active">ALL </a></li>
+						<li  class="port-btn-1"><a href="#"> APP</a></li>
+						<li  class="port-btn-1"><a href="#">CARD </a></li>
+						<li  class="port-btn-1"><a href="#">WEB</a> </li>
 					</ul>
 					<div class="row" data-aos="fade-up" data-aos-duration="1500">
 						<div class="col-lg-4 mt-4 col-md-6">
@@ -1320,7 +1321,7 @@
 				</div>
 			</section>
 			<!-- team----------- -->
-			<section class="contact py-3" id="contact">
+			<section class="contact py-5" id="contact">
 				<div class="container">
 					<div class="header-sec" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
 					  <h1 style="color:#000;">CONTACT</h1>
@@ -1440,7 +1441,7 @@
 								<p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
 								<div class="input-btn">
 								<input type="email" name="email">
-								<a href="#"><button type="submit">subcribe</button></a>
+								<a href="#"><button type="submit">subscribe</button></a>
 								</div>
 							</div>
 						</div>
@@ -1470,10 +1471,11 @@
 			    </div>
 			</div>
 		 <script src="js/bootstrap.bundle.min.js"></script>	
-		 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		 <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
+		 <script src="prosento.js"></script>
 		 
-		<script>
+		<!-- <script>
 			  AOS.init();
-		</script>
+		</script> -->
 	</body>
 </html>
